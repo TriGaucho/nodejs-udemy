@@ -3,3 +3,14 @@
 1. **Conhecendo a tecnologia**
 2. **Projeto Pratico - Primeiros passos para Portal de Noticias com NodeJS**
    1. Executando arquivos JS no NodeJS. 
+   2. Respondendo requisições HTTP com NodeJS.
+   3. Respondendo requisições com base na URL requisitada.
+3. Ganhando produtividade com NPM, Express, EJS e Nodemon
+   1. Visão geral NPM, Express, EJS e Nodemon
+   2. Iniciando o NPM em nosso projeto
+   3. NPM - Instalando o EXPRESS
+   4. Refatoring d projeto pratico portal de noticias com EXPRESS
+   5. NPM - Instalando o EJS
+   6. Download das views do projeto pratico portal de notícias
+   7. Refactoring do projeto pratico portal de notícias com EJS
+   8. NPM - Instalando e testando o Nodemon
