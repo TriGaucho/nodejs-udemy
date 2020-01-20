@@ -1,27 +1,20 @@
-//importa o módulo do express
-var express = require('express');
+//importa o módulo de configuração
+var app = require('./config/server')
 
-//o "express' retorna uma função e nós precisamos executa-la(chamada da função)
-var app = express();
+//importa o módulo
+var rotaNoticias = require('./app/routes/noticias');
+var rotaHome = require('./app/routes/home');
+var rotaFromInclusaoNoticia = require('./app/routes/formulario_inclusao_noticia');
 
-//altera o engine de views(motor de view) do EXPRESS e configura como o EJS
-app.set('view engine', 'ejs');
+//executa a função do módulo passando o app por parametro
+rotaNoticias(app);
+rotaHome(app);
+rotaFromInclusaoNoticia(app);
 
-//respondendo requisições e renderizando com EJS
-app.get('/', function(req, res){
-    res.render("home/index")
-});
-
-app.get('/formulario_inclusao_noticia', function(req, res){
-    res.render("admin/form_add_noticia")
-});
-
-app.get('/noticias', function(req, res){
-    res.render("noticias/noticias")
-});
 
 
 //metodo listen fica escutando uma porta e executa uma função na subida do servidor.
 app.listen(3000, function(){
-    console.log("Servidor ativo com EXPRESS!");
+     //chama a função do módulo Mod_teste e executa a função
+    console.log('Servidor on-line');
 });
