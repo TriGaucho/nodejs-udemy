@@ -22,7 +22,17 @@ Formato que define a construção do módulo.
    1. msg()
 
 ---
-##Criando Módulos de OCnfiguração do servidor
+##Criando Módulos de Configuração do servidor
 1. Criar um diretorio de configuração do servidor
-2. Criar arquivo *server.js*: ficam as configurações do servidor
-3. 
+2. Criar arquivo *server.js*: ficam as configurações do servidor(criar um objeto)
+3. Exportar o objeto com as informações do servidor.
+4. Importar o módulo do *server.js* na programa principal
+
+---
+##Reestruturando a aplicação e criando um módulo para definição de rotas
+1. Criar um diretorio de rotas
+   1. Cada rota é uma requisição url
+2. Criar um arquivo de rota para cada requisição de URL
+3. Exportar um objeto da rota
+4. Importar cada rota no programa principal
+5. Executar o objeto da rota no programa principal, passando o objeto de configuração.
