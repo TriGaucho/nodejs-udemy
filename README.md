@@ -5,7 +5,7 @@
    1. Executando arquivos JS no NodeJS. 
    2. Respondendo requisições HTTP com NodeJS.
    3. Respondendo requisições com base na URL requisitada.
-3. Ganhando produtividade com NPM, Express, EJS e Nodemon
+3. **Ganhando produtividade com NPM, Express, EJS e Nodemon**
    1. Visão geral NPM, Express, EJS e Nodemon
    2. Iniciando o NPM em nosso projeto
    3. NPM - Instalando o EXPRESS
@@ -14,3 +14,9 @@
    6. Download das views do projeto pratico portal de notícias
    7. Refactoring do projeto pratico portal de notícias com EJS
    8. NPM - Instalando e testando o Nodemon
+4. **Modulando nosso projeto com CommonsJS**
+   1. O que são módulos?
+   2. Criando um módulo para configuração do servidor
+   3. Reestruturando a aplicação de criando um módulo para definição das rotas
+5. **Conectando ao banco de dados MySQL**
+6. 
