@@ -19,5 +19,4 @@
    2. Criando um módulo para configuração do servidor
    3. Reestruturando a aplicação de criando um módulo para definição das rotas
 5. **Conectando ao banco de dados MySQL**
-6. **Recaputulação**
-7. 
+6. 
