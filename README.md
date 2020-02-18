@@ -20,4 +20,12 @@
    3. Reestruturando a aplicação de criando um módulo para definição das rotas
 5. **Conectando ao banco de dados MySQL**
 6. **Recaputulação**
-7. 
+7. **Models e ganhando produtividade com Consign(sucessor do Express-load)**
+   1. O que é Consign?
+   2. NPM - Instalando o Consign
+   3. Refactorin do projeto pratico portal de noticias com Consign(routes)
+   4. Refactorin do projeto pratico portal de noticias com Consign(banco de dados)
+   5. Criando pagina de detalhes
+   6. Implementando models
+   7. Opcional - Download dos arquivos de noticias.
+8. 
